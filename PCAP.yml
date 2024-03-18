@@ -1,0 +1,29 @@
+---
+- hosts: all
+  gather_facts: false
+  tasks:
+    - name: Getting the PCAP from control node
+      fetch:
+        src: /home/berja/Documents/berja.pcap
+        dest: /home/berja/HOA8/
+        flat: yes
+
+- hosts: localhost
+  connection: local
+  gather_facts: true
+  become: yes
+  become_user: root
+  tasks:
+    - name: extract an executable from PCAP in the Control Node
+      command: "tcpflow -r /home/berja/HOA8/extract/berja.pcap -o /home/berja/HOA8/extract"
+      args:
+        creates: /home/berja/HOA8/executable.exe
+
+    - name: Debug.exe file
+      command: "cat /home/berja/HOA8/report.xml"
+      register: cat_output
+      ignore_errors: true
+
+    - debug:
+        var: cat_output.stdout_lines
+

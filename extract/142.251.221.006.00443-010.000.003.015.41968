@@ -1,0 +1,163 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: Keep-Alive
+Content-Length: 4737
+
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>eScan - Access Denied</title>
+<style type="text/css">
+
+@font-face
+{
+	font-family: Sego;
+	src: url('SegoeRg_0.ttf'),
+		 url('SegoeRg_0.ttf'); /* IE9+ */
+}
+
+.style1 {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 16px;
+	color			: #FF0000;
+	font-weight		: bold;
+}
+.style2 {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-size		: 14px;
+	font-weight		: bold;
+	color			: #000000;
+}
+.style3 {
+	font-size		: 14px;
+	font-family		: Arial, Helvetica, sans-serif;
+	color			: #0000ee;
+}
+.style4 {
+	font-family		: Arial, Helvetica, sans-serif;
+	font-weight		: bold;
+	font-size		: 12px;
+}
+.style5 {
+	color			: #FF0000;
+	font-weight		: bold;
+	font-size		: 12px;
+	font-family		: Arial, Helvetica, sans-serif;
+}
+.style6 {
+	font-size		: 11px;
+	color			: #FFFFFF;
+	font-family		: Arial, Helvetica, sans-serif;
+	text-shadow		: 2px 2px 2px #111111;
+}
+.style7 {
+	font-family		: Sego;
+	color			: #D5D83F;
+	font-weight		: bold;
+	font-size		: 35px;
+	font-weight		: bolder;
+	padding-top		: 5px;
+	padding-bottom	: 5px;
+	text-shadow		: 1px 1px 2px #111111;
+}
+.style8{
+	/* IE */
+	filter	: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#0b437c', EndColorStr='#1165bb', gradientType='0');
+	/* IE10 Consumer Preview */ 
+	background-image: -ms-linear-gradient(top, #0b437c 40%, #1165bb 70%);
+	/* W3C Markup, IE10 Release Preview */ 
+	background-image: linear-gradient(to bottom, #0b437c 40%, #1165bb 70%);
+
+	/* Mozilla Firefox */ 
+	background-image: -moz-linear-gradient(top, #0b437c 40%, #1165bb 80%);
+	/* Opera */ 
+	background-image: -o-linear-gradient(top, #0b437c 40%, #1165bb 70%);
+	/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.4, #003267), color-stop(0.7, #1165bb));
+	/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-linear-gradient(top, #0b437c 40%, #1165bb 70%);
+}
+.style9{
+	background	: #0b437c;
+}
+
+.bordert {
+	border			: 2px #0b437c solid;
+	border-collapse	: collapse;
+}	
+
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+<table class="bordert" align="center" border="0" cellpadding="0" cellspacing="0" width="500">
+  <tbody><tr> 
+    <td bordercolor="#0b437c" bgcolor="#FFFFFF"> 
+      <table align="center" bgcolor="#FFFFFF" border="0" cellpadding="0" cellspacing="0" width="500">
+        <tbody><tr> 
+          <td class="style8" align="left" bgcolor="#1E2F43" height="75" valign="middle"> 
+            <div class="style7" align="center">
+				<font face="Segoe UI, Shit Happens, Segoe, Segoe Light">eScan</font>			</div>
+          </td>
+        </tr>
+        <tr> 
+          <td align="left" bgcolor="#E6E7E8" height="185" valign="top"> 
+            <div style="margin:50px;" align="center">
+				<span class="style1">Access Denied</span>
+				<br>
+				<br>
+				<span class="style2">Access to the page</span>
+				<br>
+				<span class="style3">static.doubleclick.net</span>
+				<br>
+				<br>
+				<span class="style4">has been denied for the following reason:</span>
+				<br>
+				<span class="style5">This Site is in the Blocked Category: Advertisements & Pop-Ups.</span>
+				<br>
+			</div>
+          </td>
+        </tr>
+        <tr> 
+          <td align="left" bgcolor="#2C435F" height="3" valign="top"></td>
+        </tr>
+        <tr> 
+          <td align="left" bgcolor="#CCD63C" height="2" valign="top"></td>
+        </tr>
+        <tr> 
+          <td class="style9" align="left" valign="top"> 
+            <div class="style6" style="margin:10px;" align="center"> 
+				<div align="left">
+					You are seeing this error because the page you attempted to access, contains or is labeled as containing material that has been deemed inappropriate.
+				</div>
+				<br>
+				<div align="left">
+					If you have any queries, please contact your Systems Administrator.
+				</div>
+				<br>
+                <div style="color:#9fdb3f; float:left; display:inline" align="left">
+					Copyright © MicroWorld Technologies Inc.
+				</div>
+				<div style="color:#9fdb3f; float:right; display:inline">
+					<a href="file:///C:/Users/venkatesh/AppData/Local/Microsoft/Windows/Temporary%20Internet%20Files/Content.IE5/CYSL9NRA/http://www.escanav.com" class="style6" style="color:#9fdb3f; text-decoration:none;">
+					http://www.escanav.com
+					</a>
+				</div>
+				<br>
+            </div>
+          </td>
+        </tr>
+      </tbody></table>
+    </td>
+  </tr>
+</tbody></table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+</body></html>
+
+
+
+

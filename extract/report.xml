@@ -1,0 +1,454 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.6.1</version>
+    <build_environment>
+      <compiler>11.2.0 (11.2.0)</compiler>
+      <CPPFLAGS>-I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -I/usr/local/include -DUTC_OFFSET=+0000</CPPFLAGS>
+      <CFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -g -O3 -ffile-prefix-map=/build/tcpflow-WmFafb/tcpflow-1.6.1=. -flto=auto -ffat-lto-objects -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wno-address-of-packed-member</CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro -L/usr/local/lib</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2021-11-24T11:01:14</compilation_date>
+      <library name="boost" version="107400"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>6.2.0-39-generic</os_release>
+      <os_version>#40-Ubuntu SMP PREEMPT_DYNAMIC Tue Nov 14 14:18:00 UTC 2023</os_version>
+      <host>managenode</host>
+      <arch>x86_64</arch>
+      <command_line>command line to be provided</command_line>
+      <uid>0</uid>
+      <username>root</username>
+      <start_time>2024-03-18T01:50:54Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59654-216.239.038.120.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:22.903700Z' endtime='2024-03-18T00:27:22.950951Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59654' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59668-216.239.038.120.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.009881Z' endtime='2024-03-18T00:27:23.066304Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59668' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59672-216.239.038.120.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.136167Z' endtime='2024-03-18T00:27:23.745007Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59672' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59684-216.239.038.120.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.875319Z' endtime='2024-03-18T00:27:23.954358Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59684' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59694-216.239.038.120.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.009714Z' endtime='2024-03-18T00:27:24.029168Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59694' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.718991Z' endtime='2024-03-18T00:27:29.939467Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.142' srcport='40892' dstport='80' packets='3' len='182' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.142.00080-010.000.003.015.40892</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.787880Z' endtime='2024-03-18T00:27:30.009207Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.142' dst_ipn='10.0.3.15' srcport='80' dstport='40892' packets='3' out_of_order_count='2' violations='1' len='180' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59704-216.239.038.120.00443</filename>
+      <filesize>11706</filesize>
+      <tcpflow startime='2024-03-18T00:27:29.674912Z' endtime='2024-03-18T00:27:36.336538Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='59704' dstport='443' packets='216' len='23390' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59704</filename>
+      <filesize>614905</filesize>
+      <tcpflow startime='2024-03-18T00:27:29.692279Z' endtime='2024-03-18T00:27:36.353679Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59704' packets='350' out_of_order_count='47' violations='1' len='634087' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.54606-034.120.208.123.00443</filename>
+      <filesize>956</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.350821Z' endtime='2024-03-18T00:27:36.762008Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.120.208.123' srcport='54606' dstport='443' packets='9' len='1462' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.120.208.123.00443-010.000.003.015.54606</filename>
+      <filesize>867</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.368043Z' endtime='2024-03-18T00:27:36.778814Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.120.208.123' dst_ipn='10.0.3.15' srcport='443' dstport='54606' packets='10' out_of_order_count='6' violations='1' len='1443' />
+    </fileobject>
+    <fileobject>
+      <filesize>0</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.143565Z' endtime='2024-03-18T00:27:37.163190Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.160.144.191' srcport='58006' dstport='443' packets='2' len='128' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.51134-142.251.220.227.00443</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.647700Z' endtime='2024-03-18T00:27:37.396072Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.227' srcport='51134' dstport='443' packets='12' len='1460' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.227.00443-010.000.003.015.51134</filename>
+      <filesize>4971</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.715622Z' endtime='2024-03-18T00:27:37.464034Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.227' dst_ipn='10.0.3.15' srcport='443' dstport='51134' packets='12' out_of_order_count='6' violations='1' len='5655' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.51118-142.251.220.227.00443</filename>
+      <filesize>1482</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.647534Z' endtime='2024-03-18T00:27:37.545027Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.227' srcport='51118' dstport='443' packets='43' len='3824' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.227.00443-010.000.003.015.51118</filename>
+      <filesize>86391</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.715622Z' endtime='2024-03-18T00:27:37.613600Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.227' dst_ipn='10.0.3.15' srcport='443' dstport='51118' packets='64' out_of_order_count='11' violations='1' len='89913' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.51304-142.251.220.238.00443</filename>
+      <filesize>1546</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.577883Z' endtime='2024-03-18T00:27:40.431892Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.238' srcport='51304' dstport='443' packets='19' len='2592' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.238.00443-010.000.003.015.51304</filename>
+      <filesize>22256</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.646417Z' endtime='2024-03-18T00:27:40.499873Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.238' dst_ipn='10.0.3.15' srcport='443' dstport='51304' packets='25' out_of_order_count='10' violations='1' len='23666' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.46072-142.251.221.046.00443</filename>
+      <filesize>1471</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.590204Z' endtime='2024-03-18T00:27:40.518148Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='46072' dstport='443' packets='30' len='3111' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.046.00443-010.000.003.015.46072</filename>
+      <filesize>47014</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.658521Z' endtime='2024-03-18T00:27:40.592542Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='46072' packets='41' out_of_order_count='10' violations='1' len='49288' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.46082-142.251.221.046.00443</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:27:38.623694Z' endtime='2024-03-18T00:27:41.265256Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='46082' dstport='443' packets='10' len='1352' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.046.00443-010.000.003.015.46082</filename>
+      <filesize>7456</filesize>
+      <tcpflow startime='2024-03-18T00:27:38.692133Z' endtime='2024-03-18T00:27:41.333286Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='46082' packets='11' out_of_order_count='6' violations='1' len='8086' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.45562-142.251.220.142.00443</filename>
+      <filesize>1217</filesize>
+      <tcpflow startime='2024-03-18T00:27:39.324003Z' endtime='2024-03-18T00:27:42.130223Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.142' srcport='45562' dstport='443' packets='14' len='1993' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.142.00443-010.000.003.015.45562</filename>
+      <filesize>7151</filesize>
+      <tcpflow startime='2024-03-18T00:27:39.392074Z' endtime='2024-03-18T00:27:42.185878Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.142' dst_ipn='10.0.3.15' srcport='443' dstport='45562' packets='17' out_of_order_count='10' violations='1' len='8129' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.56784-034.117.237.239.00443</filename>
+      <filesize>63</filesize>
+      <tcpflow startime='2024-03-18T00:27:42.655364Z' endtime='2024-03-18T00:27:42.656056Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.117.237.239' srcport='56784' dstport='443' packets='3' len='225' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.117.237.239.00443-010.000.003.015.56784</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:42.655578Z' endtime='2024-03-18T00:27:42.673000Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.117.237.239' dst_ipn='10.0.3.15' srcport='443' dstport='56784' packets='4' out_of_order_count='3' len='240' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.38446-142.251.220.195.00443</filename>
+      <filesize>792</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.402917Z' endtime='2024-03-18T00:27:43.047605Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.195' srcport='38446' dstport='443' packets='10' len='1352' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.195.00443-010.000.003.015.38446</filename>
+      <filesize>4971</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.471034Z' endtime='2024-03-18T00:27:43.115671Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.195' dst_ipn='10.0.3.15' srcport='443' dstport='38446' packets='11' out_of_order_count='6' violations='1' len='5601' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.53612-142.251.221.034.00443</filename>
+      <filesize>1408</filesize>
+      <tcpflow startime='2024-03-18T00:27:43.194489Z' endtime='2024-03-18T00:27:46.047686Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.34' srcport='53612' dstport='443' packets='16' len='2292' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.034.00443-010.000.003.015.53612</filename>
+      <filesize>7935</filesize>
+      <tcpflow startime='2024-03-18T00:27:43.262606Z' endtime='2024-03-18T00:27:46.115150Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.34' dst_ipn='10.0.3.15' srcport='443' dstport='53612' packets='19' out_of_order_count='10' violations='1' len='9021' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.50816-142.251.220.194.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:45.906850Z' endtime='2024-03-18T00:27:46.919085Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.194' srcport='50816' dstport='443' packets='4' len='753' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.38438-142.251.220.195.00443</filename>
+      <filesize>1544</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.402754Z' endtime='2024-03-18T00:27:47.292516Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.195' srcport='38438' dstport='443' packets='44' len='3940' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.195.00443-010.000.003.015.38438</filename>
+      <filesize>66009</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.471612Z' endtime='2024-03-18T00:27:47.360417Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.195' dst_ipn='10.0.3.15' srcport='443' dstport='38438' packets='52' out_of_order_count='13' violations='1' len='68895' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.174.00443-010.000.003.015.33926</filename>
+      <filesize>4821</filesize>
+      <tcpflow startime='2024-03-18T00:27:49.251992Z' endtime='2024-03-18T00:27:49.278060Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.174' dst_ipn='10.0.3.15' srcport='443' dstport='33926' packets='4' out_of_order_count='2' violations='1' len='5049' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.33926-142.251.220.174.00443</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:27:49.182710Z' endtime='2024-03-18T00:27:49.278718Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.174' srcport='33926' dstport='443' packets='7' len='922' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.60580-142.251.220.227.00443</filename>
+      <filesize>1490</filesize>
+      <tcpflow startime='2024-03-18T00:27:47.295709Z' endtime='2024-03-18T00:27:50.212177Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.227' srcport='60580' dstport='443' packets='17' len='2428' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.227.00443-010.000.003.015.60580</filename>
+      <filesize>8271</filesize>
+      <tcpflow startime='2024-03-18T00:27:47.363641Z' endtime='2024-03-18T00:27:50.280030Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.227' dst_ipn='10.0.3.15' srcport='443' dstport='60580' packets='19' out_of_order_count='10' violations='1' len='9357' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.034.00443-010.000.003.015.51366</filename>
+      <filesize>4835</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.554338Z' endtime='2024-03-18T00:27:50.606238Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.34' dst_ipn='10.0.3.15' srcport='443' dstport='51366' packets='4' out_of_order_count='2' violations='1' len='5063' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.51366-142.251.221.034.00443</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.485747Z' endtime='2024-03-18T00:27:50.608332Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.34' srcport='51366' dstport='443' packets='7' len='922' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.006.00443-010.000.003.015.41968</filename>
+      <filesize>4828</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.572282Z' endtime='2024-03-18T00:27:50.653943Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.6' dst_ipn='10.0.3.15' srcport='443' dstport='41968' packets='4' out_of_order_count='2' violations='1' len='5056' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.41968-142.251.221.006.00443</filename>
+      <filesize>524</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.502733Z' endtime='2024-03-18T00:27:50.669165Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.6' srcport='41968' dstport='443' packets='7' len='922' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.214.00443-010.000.003.015.49370</filename>
+      <filesize>8566</filesize>
+      <tcpflow startime='2024-03-18T00:27:48.101683Z' endtime='2024-03-18T00:27:51.005610Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.214' dst_ipn='10.0.3.15' srcport='443' dstport='49370' packets='16' out_of_order_count='9' violations='1' len='9484' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.49370-142.251.220.214.00443</filename>
+      <filesize>1211</filesize>
+      <tcpflow startime='2024-03-18T00:27:48.031883Z' endtime='2024-03-18T00:27:51.165840Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.214' srcport='49370' dstport='443' packets='18' len='2203' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.52126-142.251.221.010.00443</filename>
+      <filesize>1478</filesize>
+      <tcpflow startime='2024-03-18T00:27:48.862547Z' endtime='2024-03-18T00:27:51.535616Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.10' srcport='52126' dstport='443' packets='12' len='2146' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.010.00443-010.000.003.015.52126</filename>
+      <filesize>1448</filesize>
+      <tcpflow startime='2024-03-18T00:27:48.931804Z' endtime='2024-03-18T00:27:51.604655Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.10' dst_ipn='10.0.3.15' srcport='443' dstport='52126' packets='14' out_of_order_count='9' violations='1' len='2258' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.214.00443-010.000.003.015.49370c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:51.166155Z' endtime='2024-03-18T00:27:51.166155Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.214' dst_ipn='10.0.3.15' srcport='443' dstport='49370' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.042.00443-010.000.003.015.59874</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.908838Z' endtime='2024-03-18T00:27:50.910311Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.42' dst_ipn='10.0.3.15' srcport='443' dstport='59874' packets='2' out_of_order_count='1' violations='1' len='120' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.042.00443-010.000.003.015.59864</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.903227Z' endtime='2024-03-18T00:27:50.907210Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.42' dst_ipn='10.0.3.15' srcport='443' dstport='59864' packets='2' out_of_order_count='1' violations='1' len='120' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59616-142.251.220.194.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.872704Z' endtime='2024-03-18T00:27:50.942677Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.194' srcport='59616' dstport='443' packets='3' len='699' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59874-142.251.221.042.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.841093Z' endtime='2024-03-18T00:27:50.910103Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.42' srcport='59874' dstport='443' packets='3' len='699' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.006.00443-010.000.003.015.41968c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.654388Z' endtime='2024-03-18T00:27:50.654388Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.6' dst_ipn='10.0.3.15' srcport='443' dstport='41968' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.107.221.082.00080-010.000.003.015.53144</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.632117Z' endtime='2024-03-18T00:27:50.632933Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.107.221.82' dst_ipn='10.0.3.15' srcport='80' dstport='53144' packets='2' out_of_order_count='1' violations='1' len='120' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.034.00443-010.000.003.015.51366c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.607804Z' endtime='2024-03-18T00:27:50.607804Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.34' dst_ipn='10.0.3.15' srcport='443' dstport='51366' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.194.00443-010.000.003.015.50816</filename>
+      <filesize>1412</filesize>
+      <tcpflow startime='2024-03-18T00:27:45.975794Z' endtime='2024-03-18T00:27:48.475922Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.194' dst_ipn='10.0.3.15' srcport='443' dstport='50816' packets='4' out_of_order_count='3' violations='1' len='1646' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.221.046.00443-010.000.003.015.40458</filename>
+      <filesize>7868</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.893582Z' endtime='2024-03-18T00:27:43.564543Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.221.46' dst_ipn='10.0.3.15' srcport='443' dstport='40458' packets='14' out_of_order_count='6' violations='1' len='8660' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.40458-142.251.221.046.00443</filename>
+      <filesize>1186</filesize>
+      <tcpflow startime='2024-03-18T00:27:40.824984Z' endtime='2024-03-18T00:27:43.564353Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.46' srcport='40458' dstport='443' packets='14' len='1962' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.40882-142.251.220.142.00080</filename>
+      <filesize>342</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.701054Z' endtime='2024-03-18T00:27:47.689608Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.142' srcport='40882' dstport='80' packets='6' len='686' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.194.00443-010.000.003.015.59616</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.941623Z' endtime='2024-03-18T00:27:50.942804Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.194' dst_ipn='10.0.3.15' srcport='443' dstport='59616' packets='2' out_of_order_count='1' violations='1' len='120' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59694</filename>
+      <filesize>1412</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.027338Z' endtime='2024-03-18T00:27:26.386026Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59694' packets='4' out_of_order_count='3' violations='1' len='1646' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.120.208.123.00443-010.000.003.015.54596</filename>
+      <filesize>1109</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.321733Z' endtime='2024-03-18T00:27:36.928103Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.120.208.123' dst_ipn='10.0.3.15' srcport='443' dstport='54596' packets='17' out_of_order_count='10' violations='1' len='2087' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59668</filename>
+      <filesize>1412</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.027476Z' endtime='2024-03-18T00:27:25.385757Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59668' packets='4' out_of_order_count='3' violations='1' len='1646' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59654</filename>
+      <filesize>1460</filesize>
+      <tcpflow startime='2024-03-18T00:27:22.921377Z' endtime='2024-03-18T00:27:25.280363Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59654' packets='4' out_of_order_count='3' violations='1' len='1694' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.53144-034.107.221.082.00080</filename>
+      <filesize>301</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.614573Z' endtime='2024-03-18T00:27:50.632690Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.107.221.82' srcport='53144' dstport='80' packets='3' len='483' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59672</filename>
+      <filesize>2824</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.153813Z' endtime='2024-03-18T00:27:25.512136Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59672' packets='4' out_of_order_count='3' violations='1' len='3058' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.54596-034.120.208.123.00443</filename>
+      <filesize>2613</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.303566Z' endtime='2024-03-18T00:27:36.927974Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.120.208.123' srcport='54596' dstport='443' packets='14' len='3389' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.160.144.191.00443-010.000.003.015.52414</filename>
+      <filesize>39</filesize>
+      <tcpflow startime='2024-03-18T00:27:21.243236Z' endtime='2024-03-18T00:27:21.259999Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.160.144.191' dst_ipn='10.0.3.15' srcport='443' dstport='52414' packets='2' out_of_order_count='1' len='153' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.59864-142.251.221.042.00443</filename>
+      <filesize>517</filesize>
+      <tcpflow startime='2024-03-18T00:27:50.834873Z' endtime='2024-03-18T00:27:50.906931Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.221.42' srcport='59864' dstport='443' packets='3' len='699' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.52414-034.160.144.191.00443</filename>
+      <filesize>39</filesize>
+      <tcpflow startime='2024-03-18T00:27:21.243084Z' endtime='2024-03-18T00:27:21.260020Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.160.144.191' srcport='52414' dstport='443' packets='2' len='147' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.42082-142.251.220.163.00080</filename>
+      <filesize>1280</filesize>
+      <tcpflow startime='2024-03-18T00:27:32.055884Z' endtime='2024-03-18T00:27:50.502126Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.163' srcport='42082' dstport='80' packets='9' len='1786' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00080-010.000.003.015.38556</filename>
+      <filesize>1226</filesize>
+      <tcpflow startime='2024-03-18T00:27:27.304223Z' endtime='2024-03-18T00:27:49.990243Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='80' dstport='38556' packets='5' out_of_order_count='3' violations='1' len='1514' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.38556-216.239.038.120.00080</filename>
+      <filesize>346</filesize>
+      <tcpflow startime='2024-03-18T00:27:27.286805Z' endtime='2024-03-18T00:27:49.990039Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='216.239.38.120' srcport='38556' dstport='80' packets='6' len='690' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/216.239.038.120.00443-010.000.003.015.59684</filename>
+      <filesize>1460</filesize>
+      <tcpflow startime='2024-03-18T00:27:23.892792Z' endtime='2024-03-18T00:27:26.251675Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='216.239.38.120' dst_ipn='10.0.3.15' srcport='443' dstport='59684' packets='4' out_of_order_count='3' violations='1' len='1694' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.163.00080-010.000.003.015.42082</filename>
+      <filesize>2111</filesize>
+      <tcpflow startime='2024-03-18T00:27:32.123427Z' endtime='2024-03-18T00:27:50.502355Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.163' dst_ipn='10.0.3.15' srcport='80' dstport='42082' packets='8' out_of_order_count='4' violations='1' len='2567' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.142.00080-010.000.003.015.40882</filename>
+      <filesize>971</filesize>
+      <tcpflow startime='2024-03-18T00:27:24.772117Z' endtime='2024-03-18T00:27:47.689961Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.142' dst_ipn='10.0.3.15' srcport='80' dstport='40882' packets='5' out_of_order_count='3' violations='1' len='1259' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.42090-142.251.220.163.00080</filename>
+      <filesize>1280</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.334011Z' endtime='2024-03-18T00:27:50.709734Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='142.251.220.163' srcport='42090' dstport='80' packets='9' len='1786' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.163.00080-010.000.003.015.42090</filename>
+      <filesize>2105</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.402692Z' endtime='2024-03-18T00:27:50.709706Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.163' dst_ipn='10.0.3.15' srcport='80' dstport='42090' packets='8' out_of_order_count='5' violations='1' len='2567' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/142.251.220.174.00443-010.000.003.015.33926c1</filename>
+      <filesize>6</filesize>
+      <tcpflow startime='2024-03-18T00:27:49.278512Z' endtime='2024-03-18T00:27:49.278512Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='142.251.220.174' dst_ipn='10.0.3.15' srcport='443' dstport='33926' packets='1' len='60' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.149.100.209.00443-010.000.003.015.40936</filename>
+      <filesize>3557</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.715621Z' endtime='2024-03-18T00:27:37.127453Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.149.100.209' dst_ipn='10.0.3.15' srcport='443' dstport='40936' packets='16' out_of_order_count='8' violations='1' len='4469' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/010.000.003.015.40936-034.149.100.209.00443</filename>
+      <filesize>1356</filesize>
+      <tcpflow startime='2024-03-18T00:27:34.698309Z' endtime='2024-03-18T00:27:37.127340Z' mac_daddr='52:54:00:12:35:02' mac_saddr='08:00:27:14:f6:f7' family='2' src_ipn='10.0.3.15' dst_ipn='34.149.100.209' srcport='40936' dstport='443' packets='12' len='2024' />
+    </fileobject>
+    <fileobject>
+      <filename>/home/berja/HOA8/extract/034.160.144.191.00443-010.000.003.015.58006</filename>
+      <filesize>2</filesize>
+      <tcpflow startime='2024-03-18T00:27:37.163161Z' endtime='2024-03-18T00:27:37.163161Z' mac_daddr='08:00:27:14:f6:f7' mac_saddr='52:54:00:12:35:02' family='2' src_ipn='34.160.144.191' dst_ipn='10.0.3.15' srcport='443' dstport='58006' packets='1' violations='1' len='60' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>35</open_fds_at_end>
+  <max_open_flows>38</max_open_flows>
+  <total_flows>80</total_flows>
+  <flow_map_size>35</flow_map_size>
+  <total_packets>1399</total_packets>
+  <rusage>
+    <utime>0.013034</utime>
+    <stime>0.000000</stime>
+    <maxrss>18252</maxrss>
+    <minflt>1549</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>2448</oublock>
+    <clocktime>0.004421</clocktime>
+  </rusage>
+</dfxml>
